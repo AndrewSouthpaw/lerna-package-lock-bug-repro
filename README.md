@@ -34,10 +34,10 @@ These were the steps to create this repo.
   "requires": true,
   "dependencies": {
     "zod": {
-			"version": "3.3.4",
-			"resolved": "https://registry.npmjs.org/zod/-/zod-3.3.4.tgz",
-			"integrity": "sha512-g5V20IUn3QBpbMKjZxKp58ocUOO9/L0OlJ5+rl84QSeN6tK5ea/yQboYA59t2D8Puc/qVyz4YflhCgqR2uMtaA=="
-		}
+      "version": "3.3.4",
+      "resolved": "https://registry.npmjs.org/zod/-/zod-3.3.4.tgz",
+      "integrity": "sha512-g5V20IUn3QBpbMKjZxKp58ocUOO9/L0OlJ5+rl84QSeN6tK5ea/yQboYA59t2D8Puc/qVyz4YflhCgqR2uMtaA=="
+    }
   }
 }
 ```
