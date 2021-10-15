@@ -1,5 +1,7 @@
 # Bug repro
 
+[Lerna issue](https://github.com/lerna/lerna/issues/3011)     
+
 ## Repro
 
 Notice how `zod@^3.2.0` is specified in `foo/package.json`. We have `zod@3.9.8` currently installed in `node_modules`. Our `foo/package-lock.json` specifies `zod@3.3.4`.
