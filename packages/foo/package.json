@@ -1,0 +1,22 @@
+{
+  "name": "foo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Andrew Smith <andrewsmith@alumni.stanford.edu>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/foo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "zod": "^3.2.0"
+  }
+}
