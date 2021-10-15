@@ -4,6 +4,8 @@
 
 Notice how `zod@^3.2.0` is specified in `foo/package.json`. We have `zod@3.9.8` currently installed in `node_modules`. Our `foo/package-lock.json` specifies `zod@3.3.4`.
 
+1. `git clone https://github.com/AndrewSouthpaw/lerna-package-lock-bug-repro.git`
+1. `cd lerna-package-lock-bug-repro`
 1. `npx lerna bootstrap`
 
 **Expected result**: `zod@3.3.4` is installed into `foo/node_modules`. This is what would happen if you ran `npm i` in `foo`.
